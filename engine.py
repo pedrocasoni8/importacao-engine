@@ -8,7 +8,7 @@ def processar_pdf(input_pdf, output_excel):
     wb = Workbook()
     ws = wb.active
 
-    ws["A1"] = "Sistema funcionando"
+    ws["A1"] = "AGORA FUNCIONOU DE VERDADE"
     ws["A2"] = f"Arquivo recebido: {input_pdf}"
 
     # salva exatamente no caminho que o main espera
